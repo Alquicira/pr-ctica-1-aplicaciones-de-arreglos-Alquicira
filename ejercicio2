@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int arr[3] = {5, 10, 15};
+    
+    printf("Direccion de arr: %p\n", (void*)arr);
+    printf("Direccion de &arr[0]: %p\n", (void*)&arr[0]);
+    printf("Direccion de &arr: %p\n", (void*)&arr);
+    
+    return 0;
+}
